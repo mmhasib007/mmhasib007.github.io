@@ -1,0 +1,62 @@
+
+
+
+
+
+.navbar {
+    box-shadow: 2px 2px 5px ;
+    background: rgba(255, 255, 255, 0.815);
+}
+
+.navbar ul li {
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.navbar ul li a:hover{
+    color: rgb(243, 0, 142) !important;
+   border-bottom: 1px solid red;
+}
+.fa{
+    font-size: 30px;
+    transition: 0.5s;
+}
+#authors .card-body:hover{
+    background: rgb(2, 235, 118);
+    color: rgb(0, 25, 247);
+}
+#authors .fa:hover{
+    transform: rotate(360deg);
+}
+#touch img{
+    margin-top: 5.6rem;
+}
+@media (max-width: 991px){
+    .email input{
+        margin-top: 1rem;
+        
+    }
+    .email button{
+        margin-top: 1rem;
+
+    }
+    #touch img{
+        display: none;
+  }
+
+
+}
+@media (max-width:768px){
+    #touch{
+        position: relative;
+    }
+ 
+}
+@media(max-width:448px){
+    #home h1{
+        font-size: 50px;
+    }
+    #box .card-body p,h2{
+        font-size: 15px;
+    }
+}
